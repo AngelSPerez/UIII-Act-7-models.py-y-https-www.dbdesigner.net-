@@ -1,6 +1,7 @@
 # UIII-Act-7-models.py
 
 <img width="1243" height="923" alt="dentista_1" src="https://github.com/user-attachments/assets/feaf846f-2514-45be-b9c9-e5476d34f29d" />
+
 ```
 Paciente_Dental {
 	id_paciente integer pk increments unique
@@ -97,7 +98,6 @@ Material_Odontologico {
 	id_proveedor integer *> Proveedor_Dental.id_proveedor
 	id_odontologo integer *> Odontologo.id_odontologo
 	costo_unitario decimal(10,2)
-```
 	tipo_material varchar(50)
 	ubicacion_almacen varchar(100)
 }
